@@ -1,13 +1,14 @@
 import Layout from 'components/Layout';
+import React from 'react';
 import Head from 'next/head';
 
-export default function Home() {
+export default function Projects() {
   return (
     <Layout>
       <Head>
-        <title>Blog</title>
+        <title>My Projects</title>
       </Head>
-      tutaj będzie treść
+      Projects
     </Layout>
   );
 }

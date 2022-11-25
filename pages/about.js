@@ -1,13 +1,15 @@
 import Layout from 'components/Layout';
 import Head from 'next/head';
 
-export default function Home() {
+function About() {
   return (
     <Layout>
       <Head>
-        <title>Blog</title>
+        <title>About me</title>
       </Head>
-      tutaj będzie treść
+      About me
     </Layout>
   );
 }
+
+export default About;
