@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <link rel="stylesheet" href="https://unpkg.com/prismjs@0.0.1/themes/prism-okaidia.css" />
+        {/* <link rel="stylesheet" href="https://unpkg.com/prismjs@0.0.1/themes/prism-okaidia.css" /> */}
       </Head>
       <body>
         <Main />
